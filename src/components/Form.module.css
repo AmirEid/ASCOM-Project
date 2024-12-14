@@ -1,0 +1,42 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    align-items: left;
+    padding: 20px;
+    background-color: orangered;
+    border-radius: 10px;
+    width: 400px;
+    gap: 20px;
+}
+
+.label {
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+
+.input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}

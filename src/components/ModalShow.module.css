@@ -1,0 +1,98 @@
+.fullelement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 10px;
+    width: 80vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.thead {
+    background-color: orangered;
+    color: white;
+}
+
+.tbody {
+    background-color: #f9f9f9;
+}
+
+.tr {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+.icon {
+    width: 20px;
+}
+
+.button {
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: #f9f9f9;
+    color: black;
+    transform: scale(1.1);
+}
+
+@media (min-width: 1400px) {
+    .searchelement {
+        left: 25%; 
+    }
+}
+
+@media (max-width: 786px) and (min-width: 992px) {
+    .searchelement {
+        left: 20%;
+    }
+}
+
+@media (max-width: 401px) and (min-width: 768px) {
+    .searchelement {
+        left: 15%;
+    }
+}
+
+@media (max-width: 200px) {
+    .searchelement {
+        left: 10%;
+    }
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 10000px;
+}
+
+.h3333 {
+    color: white;
+    font-size: 20px;
+}
