@@ -14,7 +14,7 @@ function EditForm(props) {
         const { name, value } = event.target;
         setFormData((prev) => ({
             ...prev,
-            [name]: value
+            [name]: name === "birthDate" ? value.split("T")[0] : value
         }));
     };
 
