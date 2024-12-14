@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   AddParam.jsx                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aeid <aeid@student.42.fr>                  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/12/14 19:29:58 by aeid              #+#    #+#             */
+/*   Updated: 2024/12/14 19:30:06 by aeid             ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 import React, { useState } from "react";
 import styles from "./EditUserForm.module.css";
 import styless from "./AddParam.module.css";

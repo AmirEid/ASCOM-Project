@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ModalShow.jsx                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aeid <aeid@student.42.fr>                  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/12/14 19:32:25 by aeid              #+#    #+#             */
+/*   Updated: 2024/12/14 19:32:28 by aeid             ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 import AlarmOn from "../assets/alarmon.png";
 import AlarmOff from "../assets/alarmoff.png";
 import styles from "./ModalShow.module.css";
