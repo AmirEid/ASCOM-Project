@@ -6,7 +6,7 @@
 /*   By: aeid <aeid@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/14 19:32:17 by aeid              #+#    #+#             */
-/*   Updated: 2024/12/14 19:32:20 by aeid             ###   ########.fr       */
+/*   Updated: 2024/12/15 18:00:55 by aeid             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,11 @@ function Header() {
     return (
         <>
             <header className={styles.header}>
-                <h1 className={styles.h1}>ASCOM TEST</h1>
+                <img 
+                    src="../src/assets/ascom-logo.svg" 
+                    alt="Ascom Logo" 
+                    className={styles.logo}
+                />
             </header>
         </>
     )
