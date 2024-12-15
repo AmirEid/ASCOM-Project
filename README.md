@@ -1,6 +1,8 @@
 This is a webapp project was done for ASCOM as an application test. 
 The app was done using React, Axios, JavaScript, HTML and CSS. 
 
+These files are missing .env file which contains sensetive data such as username and password to access the APIs.
+
 This app is connected to a DataBase "Swagger UI", that provides 4 APIs/endpoints:
 1- GetList
 2- Get/{id}
